@@ -9,5 +9,14 @@
 #import <Foundation/Foundation.h>
 
 @interface Plugin : NSObject
+@property (nonatomic,readonly) int totalTimeEllapsed;
+@property (nonatomic,readonly) int timesResumed;
+@property (nonatomic,readonly) int timesStopped;
+
+-(void) addPlay;
+-(void) addStop;
+-(void)videoFinished;
+
+//-(int) totalTimeEllapsed;
 
 @end
