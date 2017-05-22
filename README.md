@@ -4,7 +4,7 @@ Test plugin for the NPAW Application
 
 ### Installing
 
-Download the libPlugin.a file and the include folder, place them on the root of the Project.
+Download the libPlugin.a file and the include folder from the release section, place them on the root of the Project.
 Go to your application target settings, under Build Phases add “$SOURCE_ROOT/include” 
 
 On the target settings, under Build Phases add a new “binary” on “Link Binary With Libraries” select the libPlugin.a you have on your Project folder
